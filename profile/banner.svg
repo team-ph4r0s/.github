@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="t d">
-  <title id="t">Team Pharos</title>
+  <title id="t">Team Pharos — открытые инструменты для безопасности и приватности</title>
   <desc id="d">Маяк над ночным морем и надпись Team Pharos</desc>
 
   <defs>
@@ -110,6 +110,6 @@
   <!-- текст -->
   <text x="80" y="152" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="6" fill="url(#title)">TEAM PHAROS</text>
   <rect x="84" y="172" width="96" height="4" rx="2" fill="#ffd978"/>
-  <text x="82" y="214" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" fill="#c3cfee">Открытые инструменты для self-hosted инфраструктуры</text>
-  <text x="82" y="246" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" letter-spacing="3" fill="#8497c6">AGENTLESS  ·  SELF-HOSTED  ·  OPEN SOURCE</text>
+  <text x="82" y="214" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" fill="#c3cfee">Открытые инструменты для безопасности и приватности</text>
+  <text x="82" y="246" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" letter-spacing="3" fill="#8497c6">OPEN SOURCE  ·  ZERO TRUST  ·  NO TELEMETRY</text>
 </svg>

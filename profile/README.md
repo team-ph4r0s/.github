@@ -7,6 +7,12 @@
 <h1>Team Pharos</h1>
 
 <p>
+  <a href="https://github.com/team-ph4r0s/.github/blob/main/profile/README.md">🇬🇧 English</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/team-ph4r0s/.github/blob/main/profile/README.ru.md">🇷🇺 Русский</a>
+</p>
+
+<p>
   <strong>Open-source tools that keep the light on where privacy matters.</strong><br>
   Security, privacy and useful infrastructure you can run and understand yourself.
 </p>

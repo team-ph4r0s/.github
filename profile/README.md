@@ -1,131 +1,94 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/team-ph4r0s/.github/main/profile/banner.svg" alt="Team Pharos — открытые инструменты для безопасности и приватности" width="100%">
+<img src="https://raw.githubusercontent.com/team-ph4r0s/.github/main/profile/banner.svg" alt="Team Pharos — open-source tools for security and privacy" width="100%">
 
 <br>
 
-**Инструменты, которые светят там, где темно.**<br>
-Работают без чужих облаков и телеметрии и остаются полностью под вашим контролем.
+<h1>Team Pharos</h1>
 
-<br>
+<p>
+  <strong>Open-source tools that keep the light on where privacy matters.</strong><br>
+  Security, privacy and useful infrastructure you can run and understand yourself.
+</p>
 
-[![Репозитории](https://img.shields.io/badge/Репозитории-team--ph4r0s-14224a?style=for-the-badge&logo=github&logoColor=ffd978)](https://github.com/orgs/team-ph4r0s/repositories)
-[![Arca stars](https://img.shields.io/github/stars/team-ph4r0s/arca?style=for-the-badge&label=arca&logo=github&logoColor=14224a&color=ffd978&labelColor=14224a)](https://github.com/team-ph4r0s/arca/stargazers)
-[![dementia-panel stars](https://img.shields.io/github/stars/team-ph4r0s/dementia-panel?style=for-the-badge&label=dementia-panel&logo=github&logoColor=14224a&color=ffd978&labelColor=14224a)](https://github.com/team-ph4r0s/dementia-panel/stargazers)
+<p>
+  <a href="https://github.com/orgs/team-ph4r0s/repositories"><img src="https://img.shields.io/badge/public_projects-4-14224a?style=for-the-badge&logo=github&logoColor=ffd978" alt="4 public projects"></a>
+  <a href="https://app.lava.top/pharosteam"><img src="https://img.shields.io/badge/support_pharos-Lava.top-ffd978?style=for-the-badge&logo=heart&logoColor=14224a" alt="Support Pharos on Lava.top"></a>
+</p>
 
 </div>
 
-<br>
+## 🏛️ What we stand for
 
-## 🏛️ О нас
+Pharos is named after the Lighthouse of Alexandria: visible from a distance, built to guide people through difficult conditions, and useful when it matters. We build focused open-source software for people who want control over their files, devices and infrastructure.
 
-**Pharos** — это Александрийский маяк, одно из семи чудес света. Мы делаем open-source инструменты в том же духе: надёжные, заметные издалека и нужные тем, кто не готов отдавать свои данные и инфраструктуру в чужие руки.
+- 🔓 **Open by default** — source code, build steps and security assumptions stay visible.
+- 🛡️ **Zero trust** — untrusted files and remote servers are treated as hostile until proven otherwise.
+- 🏠 **Self-hosted where it counts** — your data, keys and configuration remain under your control.
+- 📵 **No silent telemetry** — projects are designed to work without hidden cloud dependencies or tracking.
 
-- 🔓 **Открыто** — весь код под свободными лицензиями, без скрытых зависимостей от чужих облаков.
-- 🛡️ **Нулевое доверие** — Arca считает враждебным любой файл, а dementia-panel не ставит на ваши серверы никаких агентов.
-- 🏠 **Под вашим контролем** — данные, ключи и конфигурации остаются у вас, телеметрии нет.
+The showcase below intentionally lists **public repositories only**.
 
-<br>
+## 🚀 Public projects
 
-## 🚀 Проекты
-
-| | Проект | Что делает | Платформы | Лицензия |
-|:---:|---|---|---|:---:|
-| 🛡️ | [**Arca**](https://github.com/team-ph4r0s/arca) | Безопасно открывает документы из ненадёжных источников | Android · iOS | AGPL-3.0 |
-| 🧠 | [**dementia-panel**](https://github.com/team-ph4r0s/dementia-panel) | Управляет VPN-серверами AmneziaWG | Linux · Docker | MIT |
+| Project | What it does | Platform / stack | License |
+|:--|:--|:--|:--:|
+| 🛡️ [**Arca**](https://github.com/team-ph4r0s/arca) | Inspects and previews hostile documents inside a disposable WebAssembly sandbox, then creates clean copies. | Android · iOS · Rust · WebAssembly | AGPL-3.0-only |
+| 🧠 [**dementia-panel**](https://github.com/team-ph4r0s/dementia-panel) | Manages AmneziaWG servers over SSH without installing agents on the servers. | Linux · Docker · TypeScript · React | MIT |
+| 🏢 [**land.inc**](https://github.com/team-ph4r0s/land.inc) | Turns local Claude Code, Codex and Antigravity sessions into a live 2.5D office for observation and teamwork. | Windows · macOS · Linux · Node.js · PixiJS | See repository |
+| 🎓 [**MPEI.Hub**](https://github.com/team-ph4r0s/mpei-next) | A privacy-first student companion for MPEI schedules, BARS, campus maps and offline study workflows. | Android · iOS · Kotlin Multiplatform | MIT |
 
 <br>
 
 <table>
 <tr>
-<td colspan="3">
+<td colspan="2">
 
 ### 🛡️ [Arca](https://github.com/team-ph4r0s/arca)
 
-*Параноидально безопасный просмотрщик документов: **Office, OpenDocument, PDF, RTF, Outlook, Visio, Access** и картинки разбираются в одноразовой Wasm-песочнице без доступа к сети. Arca показывает, что спрятано внутри файла, и делает его стерильную копию.*
+**A paranoid document viewer and sanitizer for files you do not trust.** Arca examines Office, OpenDocument, PDF, RTF, Outlook, Visio, Access and image files in a disposable WebAssembly sandbox with no network access, explains what it finds, and produces a sterile copy when possible.
 
-[![Rust](https://img.shields.io/badge/Safe_Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/team-ph4r0s/arca)
+[![Safe Rust](https://img.shields.io/badge/Safe_Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/team-ph4r0s/arca)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)](https://github.com/team-ph4r0s/arca)
-[![Android](https://img.shields.io/badge/Android_8–16-34A853?style=flat-square&logo=android&logoColor=white)](https://github.com/team-ph4r0s/arca/blob/main/docs/ANDROID.md)
-[![iOS](https://img.shields.io/badge/iOS_16+-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/team-ph4r0s/arca/blob/main/app/README.md)
-[![Swift](https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/team-ph4r0s/arca/blob/main/app/README.md)
-[![Release](https://img.shields.io/github/v/release/team-ph4r0s/arca?style=flat-square&label=release&color=ffd978&labelColor=14224a)](https://github.com/team-ph4r0s/arca/releases/latest)
+[![Android](https://img.shields.io/badge/Android_8%E2%80%9316-34A853?style=flat-square&logo=android&logoColor=white)](https://github.com/team-ph4r0s/arca/blob/main/docs/ANDROID.md)
+[![iOS](https://img.shields.io/badge/iOS_16%2B-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/team-ph4r0s/arca/blob/main/app/README.md)
+[![Latest release](https://img.shields.io/github/v/release/team-ph4r0s/arca?style=flat-square&label=latest%20release&color=ffd978&labelColor=14224a)](https://github.com/team-ph4r0s/arca/releases/latest)
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🦀 100% Safe Rust**<br>
-<sub>Парсеры написаны с <code>#![forbid(unsafe_code)]</code> и без библиотек на C/C++: переполнения буфера и use-after-free исключены by design.</sub>
+**🦀 Memory-safe core**<br>
+<sub>Parser code is written in Rust with <code>#![forbid(unsafe_code)]</code> and strict resource limits.</sub>
 
-</td>
-<td width="33%" valign="top">
-
-**📦 Одноразовая песочница**<br>
-<sub>Разбор идёт в <code>wasmi</code> с нулём импортов: ни сети, ни диска, ни часов. После разбора память обнуляется, а песочница уничтожается.</sub>
+**🔬 Threat X-ray**<br>
+<sub>Finds macros, scripts, external templates, tracking pixels, dangerous URI schemes, hidden content and forensic metadata.</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🔬 «Рентген» макросов**<br>
-<sub>VBA, XLM, DDE, OLE и ActiveX, Equation Editor, JavaScript в PDF. Для каждого макроса — вердикт: безобидный, подозрительный или вредоносный.</sub>
+**📦 Disposable sandbox**<br>
+<sub>The Wasm guest receives no imports, network, disk, clock or IPC access. Its memory is cleared when analysis ends.</sub>
 
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-**🕵️ Утечки и трекеры**<br>
-<sub>Внешние шаблоны, трекинг-пиксели, UNC-пути для кражи NTLM-хэшей, схемы вроде <code>ms-msdt:</code>, скрытые листы, белый текст и метаданные автора.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**🧼 Стерильная копия**<br>
-<sub>В один тап для OOXML, ODF, Visio и PDF. Картинки перерисовываются в новый PNG без EXIF и GPS, а копия повторно проходит проверку.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**📄 Безопасный просмотр**<br>
-<sub>Word, Excel и PowerPoint с диаграммами, ODF, RTF, PDF, письма Outlook, схемы Visio и ER-диаграммы баз Access.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-**🧱 Жёсткие квоты**<br>
-<sub>Лимиты на вложенность, степень сжатия, память и процессорное время: zip-бомбы и Billion Laughs обрываются, а не вешают устройство.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**🧪 Полигон из 50 атак**<br>
-<sub>Follina, CVE-2017-11882, Zip Slip, XXE, утечки NTLM и другие. Образцы генерируются из кода и прогоняются в CI.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**📵 Ни байта в сеть**<br>
-<sub>В манифесте нет разрешения <code>INTERNET</code>, нет сторонних SDK и Java-зависимостей. Подписанный воспроизводимый APK.</sub>
+**🧼 Sterile copies**<br>
+<sub>Removes active content and metadata, redraws raster images as fresh PNG files, and checks the result again.</sub>
 
 </td>
 </tr>
 </table>
 
-> ✅ **Честные вердикты**: статус `Clean` выдаётся, только если распознан каждый байт документа. Всё неоднозначное получает `Unverified`, а не ложное «безопасно».
+> ✅ **Honest verdicts:** `Clean` is issued only when every byte has been recognized. Anything ambiguous remains `Unverified`.
 
 <div align="center">
 
-[**📖 Репозиторий**](https://github.com/team-ph4r0s/arca) &nbsp;·&nbsp;
-[**📥 Скачать APK**](https://github.com/team-ph4r0s/arca/releases/latest) &nbsp;·&nbsp;
-[Архитектура](https://github.com/team-ph4r0s/arca/blob/main/docs/ARCHITECTURE.md) &nbsp;·&nbsp;
-[Модель угроз](https://github.com/team-ph4r0s/arca/blob/main/docs/SECURITY_THREAT_MODEL.md) &nbsp;·&nbsp;
-[Полигон атак](https://github.com/team-ph4r0s/arca/blob/main/tests/malware-test/README.md) &nbsp;·&nbsp;
+[**📖 Repository**](https://github.com/team-ph4r0s/arca) &nbsp;·&nbsp;
+[**📥 Download APK**](https://github.com/team-ph4r0s/arca/releases/latest) &nbsp;·&nbsp;
+[Architecture](https://github.com/team-ph4r0s/arca/blob/main/docs/ARCHITECTURE.md) &nbsp;·&nbsp;
+[Threat model](https://github.com/team-ph4r0s/arca/blob/main/docs/SECURITY_THREAT_MODEL.md) &nbsp;·&nbsp;
+[Malware lab](https://github.com/team-ph4r0s/arca/blob/main/tests/malware-test/README.md) &nbsp;·&nbsp;
 [iOS](https://github.com/team-ph4r0s/arca/blob/main/app/README.md) &nbsp;·&nbsp;
-[Релизы](https://github.com/team-ph4r0s/arca/tree/main/docs/releases)
+[Releases](https://github.com/team-ph4r0s/arca/releases)
 
 </div>
 
@@ -133,128 +96,138 @@
 
 <table>
 <tr>
-<td colspan="3">
+<td colspan="2">
 
 ### 🧠 [dementia-panel](https://github.com/team-ph4r0s/dementia-panel)
 
-*Agentless-ПО для управления серверами **AmneziaWG**: развёртывание в Docker по SSH, мониторинг доступности, учёт пользователей и автообновляемые конфигурации для клиентов.*
+**Agentless infrastructure management for AmneziaWG.** Deploy containers over SSH, monitor nodes, manage users, publish client subscriptions and keep configuration changes under your control.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
-[![Node.js](https://img.shields.io/badge/Node.js_≥22.13-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
+[![Node.js](https://img.shields.io/badge/Node.js_%E2%89%A522.13-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
 [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/team-ph4r0s/dementia-panel)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
-[![WireGuard](https://img.shields.io/badge/AmneziaWG-88171A?style=flat-square&logo=wireguard&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
+[![AmneziaWG](https://img.shields.io/badge/AmneziaWG-88171A?style=flat-square&logo=wireguard&logoColor=white)](https://github.com/team-ph4r0s/dementia-panel)
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🔌 Agentless по SSH**<br>
-<sub>Разворачивает контейнер AmneziaWG на Ubuntu, Debian и AlmaLinux. Уже установленные контейнеры подхватываются без переустановки.</sub>
+**🔌 Agentless deployment**<br>
+<sub>Works with Ubuntu, Debian and AlmaLinux over SSH and can adopt existing containers.</sub>
 
-</td>
-<td width="33%" valign="top">
+**⚡ Hot synchronization**<br>
+<sub>Applies changes through <code>awg syncconf</code> without dropping active connections.</sub>
 
-**🛡️ AmneziaWG 3.x**<br>
-<sub>Параметры обфускации со своей рандомизацией для каждого сервера и проверкой протокола. Серверы 1.x обновляются в один клик.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**⚡ Горячая синхронизация**<br>
-<sub>Изменения применяются через <code>awg syncconf</code> — без разрыва текущих соединений.</sub>
+**📡 Monitoring and alerts**<br>
+<sub>Node probes, event history and Telegram notifications, including checks from selected regions.</sub>
 
 </td>
-</tr>
-<tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🔗 Автообновляемые подписки**<br>
-<sub>Ссылки <code>/sub/&lt;token&gt;</code>, QR-коды и готовые конфигурации для клиентов Incy и mihomo.</sub>
+**🔗 Subscriptions and bridges**<br>
+<sub>Auto-updating links, QR codes, relay nodes and shared access without moving private keys.</sub>
 
-</td>
-<td width="33%" valign="top">
+**🔐 Security controls**<br>
+<sub>Brute-force protection, TOTP recovery codes, session management and encrypted backups.</sub>
 
-**🌉 Мосты и партнёры**<br>
-<sub>Ретрансляторы с отказоустойчивостью подписок и общий доступ к нодам между двумя панелями — приватные ключи не покидают панель владельца.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**📦 Импорт из AmneziaVPN**<br>
-<sub>Перенос серверов по ключам <code>vpn://</code> и переезд самой панели на другой сервер.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-**📡 Мониторинг и уведомления**<br>
-<sub>Проверка доступности нод, в том числе из выбранных стран через check-host.net, журнал событий и оповещения в Telegram.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**🔐 Безопасность**<br>
-<sub>Защита от перебора, двухфакторная аутентификация TOTP с кодами восстановления и управление сессиями.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**💾 Резервные копии**<br>
-<sub>Шифрованные бэкапы в Yandex Disk или Google Drive по расписанию и восстановление из CLI.</sub>
+**🧩 HTTPS out of the box**<br>
+<sub>One-command setup with Let's Encrypt, a custom certificate or a self-signed certificate.</sub>
 
 </td>
 </tr>
 </table>
 
-> 🧩 **Установка одной командой** и **HTTPS из коробки**: Let's Encrypt (Cloudflare DNS-01 или HTTP-01), самоподписанный или собственный сертификат.
-
 <div align="center">
 
-[**📖 Репозиторий**](https://github.com/team-ph4r0s/dementia-panel) &nbsp;·&nbsp;
-[Бэкапы](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/backups.md) &nbsp;·&nbsp;
-[Перенос](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/migration.md) &nbsp;·&nbsp;
-[Проверки доступности](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/probes.md) &nbsp;·&nbsp;
-[Мосты](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/bridges.md) &nbsp;·&nbsp;
-[Импорт из AmneziaVPN](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/amnezia-import.md) &nbsp;·&nbsp;
+[**📖 Repository**](https://github.com/team-ph4r0s/dementia-panel) &nbsp;·&nbsp;
+[Backups](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/backups.md) &nbsp;·&nbsp;
+[Migration](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/migration.md) &nbsp;·&nbsp;
+[Probes](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/probes.md) &nbsp;·&nbsp;
+[Bridges](https://github.com/team-ph4r0s/dementia-panel/blob/main/docs/bridges.md) &nbsp;·&nbsp;
 [Changelog](https://github.com/team-ph4r0s/dementia-panel/blob/main/CHANGELOG.md)
 
 </div>
 
 <br>
 
-## 🤝 Как помочь проектам
+### 🏢 [land.inc](https://github.com/team-ph4r0s/land.inc)
 
-<table>
-<tr>
-<td>⭐ <b>Поставьте звезду</b></td>
-<td>Это лучший способ сказать, что проект вам полезен, и помочь другим его найти.</td>
-</tr>
-<tr>
-<td>🐛 <b>Сообщите о проблеме</b></td>
-<td>Нашли баг или есть идея? Откройте issue в <a href="https://github.com/team-ph4r0s/arca/issues">Arca</a> или <a href="https://github.com/team-ph4r0s/dementia-panel/issues">dementia-panel</a>.</td>
-</tr>
-<tr>
-<td>🔧 <b>Пришлите pull request</b></td>
-<td>Pull request'ы приветствуются — от правки опечатки до новой функции.</td>
-</tr>
-<tr>
-<td>🔒 <b>Нашли уязвимость?</b></td>
-<td>Не публикуйте её в issue — действуйте по SECURITY.md: <a href="https://github.com/team-ph4r0s/arca/blob/main/SECURITY.md">Arca</a>, <a href="https://github.com/team-ph4r0s/dementia-panel/blob/main/SECURITY.md">dementia-panel</a>.</td>
-</tr>
-<tr>
-<td>💛 <b>Поддержите команду</b></td>
-<td>Наши проекты бесплатны, без рекламы и платных функций. Поддержать разработку можно на <a href="https://app.lava.top/pharosteam">Lava.top</a>.</td>
-</tr>
-</table>
+**A live office for local AI-agent work.** land.inc turns Claude Code, Codex and Antigravity sessions into residents of an isometric 2.5D office, so you can see what is happening, inspect recent activity and coordinate a task without sending session logs to a separate land.inc cloud.
+
+- 👀 **Observe local work** — sessions are grouped by project and mapped to visible office zones.
+- 🧭 **Assign tasks** — choose a folder, provider, model, reasoning level and access mode from the task board.
+- 🤝 **Run teams** — planner, executor, reviewers and follow-up steps are shown as a single conversation.
+- 🧪 **Demo safely** — fake agents let you demonstrate the office without calling models.
+- 🏠 **Stay local** — the daemon listens on loopback and reads the providers' existing local logs and CLIs.
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/team-ph4r0s/land.inc)
+[![Node.js](https://img.shields.io/badge/Node.js_24%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/team-ph4r0s/land.inc)
+[![PixiJS](https://img.shields.io/badge/PixiJS-E72264?style=flat-square&logo=pixijs&logoColor=white)](https://github.com/team-ph4r0s/land.inc)
+
+<div align="center">
+
+[**📖 Repository**](https://github.com/team-ph4r0s/land.inc) &nbsp;·&nbsp;
+[Quick start](https://github.com/team-ph4r0s/land.inc#быстрый-старт) &nbsp;·&nbsp;
+[Changelog](https://github.com/team-ph4r0s/land.inc/blob/main/CHANGELOG.md) &nbsp;·&nbsp;
+[Latest release](https://github.com/team-ph4r0s/land.inc/releases/latest)
+
+</div>
+
+<br>
+
+### 🎓 [MPEI.Hub](https://github.com/team-ph4r0s/mpei-next)
+
+**A fast, privacy-first student companion for the National Research University “MPEI”.** MPEI.Hub combines an offline-first schedule, BARS account access with 2FA, a Lefortovo campus map, notes, reminders and a polished Compose interface for Android and the ongoing iOS/Kotlin Multiplatform work.
+
+- 📅 **Schedule without proxies** — reads the official MPEI schedule API, caches data locally and reminds you about changes.
+- 🔐 **BARS with 2FA** — supports TOTP authenticators and the available messenger and email flows.
+- 🗺️ **Offline campus map** — OpenStreetMap-based navigation with no Google Play Services or API keys.
+- 🎨 **Adaptive UI** — Material 3, OLED black, widgets, tablets and foldables.
+- 📵 **Zero-tracker policy** — no Firebase, analytics, advertising SDKs or crash telemetry.
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/team-ph4r0s/mpei-next)
+[![Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)](https://github.com/team-ph4r0s/mpei-next)
+[![Android](https://img.shields.io/badge/Android-34A853?style=flat-square&logo=android&logoColor=white)](https://github.com/team-ph4r0s/mpei-next)
+[![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/team-ph4r0s/mpei-next/blob/main/docs/IOS.md)
+
+<div align="center">
+
+[**📖 Repository**](https://github.com/team-ph4r0s/mpei-next) &nbsp;·&nbsp;
+[**📥 Download APK**](https://github.com/team-ph4r0s/mpei-next/releases/latest) &nbsp;·&nbsp;
+[English README](https://github.com/team-ph4r0s/mpei-next/blob/main/README.en.md) &nbsp;·&nbsp;
+[Documentation](https://github.com/team-ph4r0s/mpei-next/tree/main/docs) &nbsp;·&nbsp;
+[Releases](https://github.com/team-ph4r0s/mpei-next/releases)
+
+</div>
+
+## 🤝 How to help
+
+| | Action | Why it helps |
+|:--:|:--|:--|
+| ⭐ | **Star a repository** | Helps useful open-source work reach more people. |
+| 🐛 | **Report a problem** | Open an issue in the project that needs attention. |
+| 🔧 | **Send a pull request** | Fixes, documentation and new features are welcome. |
+| 🔒 | **Report a vulnerability privately** | Use the project's `SECURITY.md` when it is available; do not publish sensitive details in a public issue. |
+
+## 💛 Support independent development
+
+All Pharos projects are free to use, open source and free of advertising. If one of them saves you time or helps you keep control of your data, you can support continued maintenance, release infrastructure and security work:
+
+<div align="center">
+
+<a href="https://app.lava.top/pharosteam"><img src="https://img.shields.io/badge/Support%20Team%20Pharos%20on-Lava.top-ffd978?style=for-the-badge&logo=heart&logoColor=14224a" alt="Support Team Pharos on Lava.top"></a>
+
+<br>
+<sub>Thank you for helping us keep the projects public, useful and independent.</sub>
+
+</div>
 
 <br>
 
 <div align="center">
 
-<sub>Arca — AGPL-3.0 &nbsp;·&nbsp; dementia-panel — MIT &nbsp;·&nbsp; Сделано командой <b>Pharos</b></sub>
+<sub>Arca — AGPL-3.0-only &nbsp;·&nbsp; dementia-panel — MIT &nbsp;·&nbsp; MPEI.Hub — MIT &nbsp;·&nbsp; land.inc — see repository &nbsp;·&nbsp; Built by <b>Pharos</b></sub>
 
 </div>
